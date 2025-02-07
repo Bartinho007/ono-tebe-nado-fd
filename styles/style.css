@@ -61,6 +61,7 @@
   display: flex;
   padding: 165px 50px 207px 50px;
   opacity: 60%;
+  flex-direction: column;
 }
 
 .cover-title {
@@ -84,14 +85,39 @@ gap: 20px;
 
 .tebe {
   align-self: center;
-  transform: translateX(153px);
+  transform: translateX(14.5px);
 }
 
 .nado {
   align-self: flex-end;
-  transform: translateX(306px);
+  transform: translateX(29px);
 }
 
 .description {
   margin-top: 106px;
+  display: flex;
+  align-items: center;
+
+}
+
+.description-text {
+  max-width: 637px;
+  max-height: 28px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 18.5px;
+  color: #fff;
+}
+
+.description-button {
+  cursor: pointer;
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
+  background: inherit;
+  color: #fff;
+  margin-left: 107px;
+  font-size: 22px;
+  font-weight: 500;
 }
