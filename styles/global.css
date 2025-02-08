@@ -7,6 +7,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -41,3 +42,4 @@ img {
 button {
   font: inherit;
 }
+
