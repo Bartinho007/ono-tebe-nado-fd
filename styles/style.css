@@ -97,16 +97,16 @@
   z-index: 3;
 }
 
-.ono {
+.first_word {
   align-self: flex-start;
 }
 
-.tebe {
+.second_word {
   align-self: center;
   transform: translateX(14.5px);
 }
 
-.nado {
+.third_word {
   align-self: flex-end;
   transform: translateX(29px);
 }
@@ -334,4 +334,8 @@
 
 .footer__menu-link {
   text-decoration: underline;
+}
+
+.active {
+  text-decoration: none;
 }
