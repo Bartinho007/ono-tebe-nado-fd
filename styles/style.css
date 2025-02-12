@@ -65,7 +65,6 @@
   padding: 165px 50px 50px 50px;
   flex-direction: column;
   position: relative;
-  background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
 }
