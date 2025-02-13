@@ -47,7 +47,7 @@
 .contacts a {
   white-space: nowrap;
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
 }
 
 .contacts p {
@@ -94,16 +94,16 @@
   z-index: 3;
 }
 
-.first_word {
+.aligned-text {
   align-self: flex-start;
 }
 
-.second_word {
+.aligned-text_center {
   align-self: center;
   transform: translateX(14.5px);
 }
 
-.third_word {
+.aligned-text_right {
   align-self: flex-end;
   transform: translateX(29px);
 }
@@ -303,12 +303,12 @@
   justify-self: end;
 }
 
-.footer__contacts {
+.footer .contacts {
   justify-self: start;
   align-self: start;
   line-height: 24.3px;
   font-size: 18px;
-  width: 264px;
+  min-width: 264px;
   font-style: normal;
 }
 
